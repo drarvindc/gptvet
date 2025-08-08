@@ -1,3 +1,4 @@
+<?php include '../includes/header.php'; ?>
 <?php
 require_once('../config/db.php');
 $mode = $_GET['mode'] ?? 'admin';
@@ -51,3 +52,5 @@ document.getElementById("species").addEventListener("change", function() {
     xhr.send();
 });
 </script>
+
+<?php include '../includes/footer.php'; ?>

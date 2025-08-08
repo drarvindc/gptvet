@@ -1,3 +1,4 @@
+<?php include '../includes/header.php'; ?>
 <?php
 require_once('../config/db.php');
 
@@ -21,3 +22,5 @@ if (!$pet) {
     <label>Next Visit Date: <input type="date" name="next_visit"></label><br>
     <input type="submit" value="Save Visit">
 </form>
+
+<?php include '../includes/footer.php'; ?>
