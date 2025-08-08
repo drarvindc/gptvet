@@ -1,3 +1,1 @@
-<?php
-// Footer include for AdminLTE layout
-?>
+<?php /* AdminLTE footer include */ ?>
